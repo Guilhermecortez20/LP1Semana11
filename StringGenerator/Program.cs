@@ -1,12 +1,11 @@
-﻿using System;
-
-namespace StringGenerator
+﻿namespace StringGenerator
 {
-    public class Program
+    class Program
     {
-        private static void Main(string[] args)
+        static void Main(string[] args)
         {
-            Console.WriteLine("Hello LP!");
+            Controller controller = new Controller();
+            controller.Run(args);
         }
     }
 }
